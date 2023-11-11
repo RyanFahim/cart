@@ -3,15 +3,15 @@
 Simple app where admin can add, delete and update course. User can enroll into those courses. MERN develpment
 
 ## Installation
-First git clone.
-Next open integrated terminal for client and server (Open VScode or such )
+First git clone the repo.
+Next open two integrated terminal for client and server (Open VScode or such )
 Next command the following
 
 ```bash
   npm i
 ```
 
-After installing the node module run the server and the client to start the project
+After installing the node module run the server and the client to start the project (in both terminal)
 
   ```bash
   npm start
@@ -20,12 +20,10 @@ After installing the node module run the server and the client to start the proj
    ### How to use this code?
 
    When opening the client, first page will be login page. Below login, there will be a button for registering a user and admin. Click that or just go to the http://localhost:3000/register (If your client side is running on port 3000)
-
+   
    After creating user, login with username and passowrd
 
     
-
-   
 
    ### Admin 
 
