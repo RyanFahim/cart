@@ -1,0 +1,13 @@
+{
+    "mongodb": {
+        "mongoURL": "mongodb://localhost:27017/cart",
+        "mongoOptions": {
+            "useNewUrlParser": true
+            
+        },
+        "port": 5000
+    },
+    "jwt":{
+        "jwtSecret" : "Fahim"
+    }
+}
