@@ -35,9 +35,8 @@ function Register() {
       });
       console.log(newUserData)
       if (response.ok) {
-
-
         handleClose();
+        getAllUsers();
       } else {
         const data = await response.json();
         setErrorMessage(data.message);
@@ -59,9 +58,8 @@ function Register() {
       });
       console.log(newUserData)
       if (response.ok) {
-
-
         setLgShow(false)
+        getAllUsers();
       } else {
         const data = await response.json();
         setErrorMessage(data.message);
